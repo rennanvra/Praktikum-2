@@ -205,7 +205,6 @@ int main()
 
 ![g2p2](https://github.com/rennanvra/Praktikum-1/assets/162097323/fb017429-70f4-4e10-90f8-c690fc944ee1)
 
-
 #### Interpretasi:
 Program ini adalah program untuk mengetahui nilai maksimum dalam suatu Array. Dengan menggunakan struktur perulangan dan percabangan, program ini mengelola proses pengisian array dengan nilai-nilai yang dimasukkan oleh pengguna. Setelah selesai mengisi array, program akan melakukan pencarian untuk menemukan nilai maksimum dari seluruh elemen array yang telah diinputkan.
 
@@ -312,7 +311,6 @@ int main()
 #### Output:
 
 ![u2p2](https://github.com/rennanvra/Praktikum-1/assets/162097323/34d0b055-2fdc-4c9c-9c70-6880004f7e13)
-
 
 #### Interpretasi:
 Program di atas akan meminta pengguna untuk memasukkan ukuran untuk setiap dimensi dari array yang ingin dibuat, yaitu dimensi X, Y, dan Z. Setelah menerima input ini, program akan membuat array "data_array" yang memiliki dimensi tersebut. Selanjutnya, pengguna akan diminta untuk mengisi setiap elemen array ini. Program memungkinkan pengguna memasukkan nilai untuk setiap elemen array sambil menyertakan pesan yang jelas yang menunjukkan posisi elemen dalam array. Nilai array bersama dengan indeksnya ditampilkan dalam format "Data Array [x][y][z] = nilai", sehingga mudah untuk mengetahui di mana setiap nilai berada d Selain itu, program menampilkan array secara keseluruhan hanya dengan nilai-nilai yang tersusun dalam bentuk matriks tiga dimensi, tanpa pesan apa pun.

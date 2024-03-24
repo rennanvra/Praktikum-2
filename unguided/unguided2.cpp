@@ -9,13 +9,13 @@ int main()
     cout << "Masukkan ukuran Y: "; cin >> Y; 
     cout << "Masukkan ukuran Z: "; cin >> Z; cout << endl;
     
-    int raisa205[X][Y][Z];
+    int data_array[X][Y][Z];
     
     for (int x = 0; x < X; x++) { 
         for (int y = 0; y < Y; y++) {
             for (int z = 0; z < Z; z++) {
                 cout << "Input Array [" << x << "][" << y <<
-"][" << z << "] = "; cin >> raisa205[x][y][z]; 
+"][" << z << "] = "; cin >> data_array[x][y][z]; 
             }
         }
     }
@@ -26,7 +26,7 @@ int main()
         for (int y = 0; y < Y; y++) { 
             for (int z = 0; z < Z; z++) {
                 cout << "Data Array [" << x << "][" << y << 
-"][" << z << "] = " << raisa205[x][y][z] << endl;
+"][" << z << "] = " << data_array[x][y][z] << endl;
             } 
         }
     }
@@ -36,7 +36,7 @@ int main()
     for (int x = 0; x < X; x++) {
         for (int y = 0; y < Y; y++) { 
             for (int z = 0; z < Z; z++) {
-                cout << raisa205[x][y][z] << ' '; 
+                cout << data_array[x][y][z] << ' '; 
             }
             cout << endl;
         }

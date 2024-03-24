@@ -393,20 +393,13 @@ int main (){
 
 #### Interpretasi:
 
-Program di atas adalah program menu sederhana untuk mengelola array. Ini dimulai dengan judul "Program Menu Array" dan meminta pengguna untuk memasukkan jumlah elemen yang ingin mereka masukkan. Kemudian program membuat array dengan ukuran yang sesuai.
+Program di atas adalah program menu sederhana untuk mengelola array. Ini dimulai dengan judul "Program Menu Array" dan meminta pengguna untuk memasukkan jumlah elemen yang ingin mereka masukkan. Kemudian program membuat array dengan ukuran yang sesuai. 
 
-Setelah array dibuat dan diisi dengan nilai yang dimasukkan pengguna, program menampilkan menu pilihan dengan empat opsi: mencari nilai maksimum, mencari nilai minimum, mencari nilai rata-rata dari semua elemen array, dan keluar dari program.
+Setelah array dibuat dan diisi dengan nilai yang dimasukkan pengguna, program menampilkan menu pilihan dengan empat opsi: mencari nilai maksimum, mencari nilai minimum, mencari nilai rata-rata dari semua elemen array, dan keluar dari program. Program akan menjalankan fungsi sesuai dengan pilihan yang dipilih oleh pengguna ketika mereka memilih salah satu opsi di menu. Jika pengguna memilih untuk mencari nilai maksimum, program akan mencari nilai maksimum dari elemen array dan menampilkannya. Itu juga berlaku untuk nilai minimun dan rata-rata.
 
+Selain itu, jika pengguna memilih untuk keluar dari program, program akan menampilkan pesan "Terima kasih!" dan keluar dari loop menu.
 
-Program akan menjalankan fungsi sesuai dengan pilihan yang dipilih oleh pengguna ketika mereka memilih salah satu opsi di menu. Jika pengguna memilih untuk mencari nilai maksimum, program akan mencari nilai maksimum dari elemen array dan menampilkannya. Itu juga berlaku untuk nilai minimun dan rata-rata.
-
-Ini adalah program menu sederhana untuk mengelola array. Ini dimulai dengan judul "Program Menu Array" dan meminta pengguna memasukkan jumlah elemen yang mereka inginkan. Kemudian program membuat array dengan ukuran yang sesuai.
-
-Setelah array dibuat dan diisi dengan nilai yang dimasukkan pengguna, program menampilkan menu dengan empat opsi: mencari nilai maksimum, nilai minimum, nilai rata-rata dari semua elemen array, dan keluar dari program.
-
-
-Ketika pengguna memilih salah satu opsi di menu, program akan menjalankan fungsi sesuai dengan pilihan mereka. Misalnya, jika pengguna memilih untuk mencari nilai maksimum, program akan mencari nilai maksimum dari elemen array dan menampilkannya. Selain itu, ini berlaku untuk
-
+Untuk terus menampilkan menu dan menerima input pengguna hingga pengguna memilih untuk keluar dari program, program menggunakan loop while (true) untuk memvalidasi input pengguna. Jika pengguna memasukkan pilihan yang tidak valid, program akan memberikan pesan peringatan.
 
 ## Kesimpulan
 

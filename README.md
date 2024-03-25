@@ -100,6 +100,8 @@ Keunggulan array adalah sebagai berikut:
 
 b. Kekurangan 
 
+Kekurangan array adalah sebagi berikut:
+
 - Array mempunyai fleksibilitas rendah, sehingga tidak cocok untuk berbagai aplikasi [4].
 - Array harus bertipe homogrn[4].
 - Tidak efisien dalam penggunaan memori [4].
